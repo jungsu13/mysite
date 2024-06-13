@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #222;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0 60px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb a {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 50px;
+}
+
+.gnb a.on {
+    color: #0084BC;
+}
+
+.user {
+    margin-left: 50px;
+}
+
+
+.user button {
+    background-color: #0084BC;
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.slider {
+    position: relative;
+}
+
+.slide {
+    height: 650px;    
+    position: relative;
+}
+
+.slide img {
+    height: 100%;
+}
+
+
+
+
+.slide .bac {
+    width: 400px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+
+.slide .texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 600px;
+}
+
+.slide h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+.slide_arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.slide_arrows img {
+    width: 46px;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    transform: translateY(-50%);
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+
+.con1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+
+.con1 .text {
+    width: 50%;
+    padding: 30px 50px 50px 300px;
+}
+
+.con1 .text h2 {
+    font-size: 50px;
+
+}
+
+.con1 .text p {
+    margin: 20px 0;
+}
+
+
+.con1 .text button {
+    margin: 30px 0;
+    width: 100px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+}
+
+
+.con1 .text button:first-child {
+    margin-right: 20px;
+}
+
+
+.banner {
+    width: 50%;
+}
+
+
